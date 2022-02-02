@@ -2,7 +2,7 @@
 
 namespace TimedLogExample.Logging;
 
-public class TimedLogOperation<T> : IDisposable
+public readonly struct TimedLogOperation<T> : IDisposable
 {
     private readonly ILogger<T> _logger;
     private readonly LogLevel _logLevel;

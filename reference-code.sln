@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedLogExample", "src\Time
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BACC8101-E7E4-49DE-887D-36DB0FD158BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedLogSerilog", "src\TimedLogSerilog\TimedLogSerilog.csproj", "{4D53AFDD-2CC5-4516-AC97-14B17BE975D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{1FCA38E1-B8BF-46CD-97F1-A69D39A8DDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCA38E1-B8BF-46CD-97F1-A69D39A8DDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCA38E1-B8BF-46CD-97F1-A69D39A8DDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D53AFDD-2CC5-4516-AC97-14B17BE975D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D53AFDD-2CC5-4516-AC97-14B17BE975D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D53AFDD-2CC5-4516-AC97-14B17BE975D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D53AFDD-2CC5-4516-AC97-14B17BE975D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1FCA38E1-B8BF-46CD-97F1-A69D39A8DDBC} = {BACC8101-E7E4-49DE-887D-36DB0FD158BC}
+		{4D53AFDD-2CC5-4516-AC97-14B17BE975D5} = {BACC8101-E7E4-49DE-887D-36DB0FD158BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A739D49B-89C3-4192-9C01-D08C4E509EF5}
